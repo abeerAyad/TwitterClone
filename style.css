@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    height: 10000px;
+    /* height: 10000px; */
 
 }
 
@@ -47,7 +47,7 @@ header nav {
 header nav .fa-twitter {
     color: #1D9BF0;
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 header nav .home-content {
@@ -80,7 +80,7 @@ header nav  form i {
     
 }
 header nav  form input {
-    width: 100%;
+    width: 350px;
     padding: 14px 40px;
     border-radius: 26px;
     outline: none;
@@ -95,18 +95,13 @@ header nav  form input:focus {
     background-color: #fff;
     border: 1px solid #1D9BF0;
 }
-.twitter-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
 
 /* SideBar Style */
 .twitter-sidebar {
     position: fixed;
     margin-top: 70px;
-    padding: 0 30px;
+    margin-right: 100px;
+    padding: 0 40px;
     border-right: 1px solid  rgb(247, 249, 249);
     height: 100%;
 }
@@ -208,7 +203,13 @@ header nav  form input:focus {
 
 
 .trend {
-   
+   position: absolute;
+   right: 10px;
+   padding: 0 30px;
+   width: 30%;
+   margin-top: 50px;
+   border-left: 1px solid  rgb(247, 249, 249);
+
 }
 .trend-details {
     background-color: rgb(247, 249, 249);
@@ -332,3 +333,5 @@ footer p {
     padding-top: 5px;
     padding-bottom: 20px;
 }
+
+
